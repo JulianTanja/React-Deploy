@@ -10,7 +10,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      
+      <a> Hello </a>
       <NavBar />
 
       <Route exact path="/" component={Home} />

@@ -1,0 +1,13 @@
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    list-style: none;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}

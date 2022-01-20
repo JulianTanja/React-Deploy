@@ -9,7 +9,7 @@ function About () {
             </div>
             <div className="container2">
                 <div className="img-col">
-                    <img className="image" src="https://github.com/JulianTanja/React-Deploy/blob/main/public/images/profilepic.jpg" alt=""/>
+                    <img className="image" src={process.env.PUBLIC_URL + '/images/profilepic.jpg'} alt=""/>
                 </div>
                 <div className="text-col">
                     <h4 className="titular-name2"> 
